@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Yaswanth</string>
+    <string name="nav_header_subtitle">yaswanthvuyyuru@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="saved_data_in_db">Saved Data in Database</string>
+
+    <!-- Updated Menu Items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gps_camera">GPS and Camera</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_fetch_api">Fetch API</string>
+    <string name="menu_fetch_by_button">Fetch Data By Button</string>
+    <string name="menu_gps">GPS</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="click_the_button_to_fetch_data">Click the button to fetch data</string>
+    <string name="fetch_data">Fetch Data</string>
+</resources>

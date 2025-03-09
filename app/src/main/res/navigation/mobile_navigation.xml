@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_gps"
+        android:name="com.yash.myapplication.GPSFragment"
+        android:label="GPS"
+        tools:layout="@layout/fragment_gps" />
+
+    <fragment
+        android:id="@+id/nav_gps_camera"
+        android:name="com.yash.myapplication.GPSCameraFragment"
+        android:label="GPS Camera"
+        tools:layout="@layout/fragment_gps_camera" />
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.yash.myapplication.CameraFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_fetch_by_button"
+        android:name="com.yash.myapplication.FetchDataFragment"
+        android:label="Fetch Data"
+        tools:layout="@layout/fragment_fetch_data" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.yash.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.yash.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.yash.myapplication.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow" />
+
+</navigation>
